@@ -6,7 +6,7 @@ import (
 	neturl "net/url" // alias to allow `url string` func signature in New
 	"reflect"
 
-	"github.com/db-journey/migrate/file"
+	"github.com/adamhassel/migrate/file"
 )
 
 // Driver is the interface type that needs to implemented by all drivers.

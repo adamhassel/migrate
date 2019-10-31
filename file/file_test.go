@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/db-journey/migrate/direction"
+	"github.com/adamhassel/migrate/direction"
 )
 
 func TestParseFilenameSchema(t *testing.T) {

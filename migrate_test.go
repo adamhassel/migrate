@@ -8,12 +8,13 @@ import (
 	"path"
 	"reflect"
 	"testing"
+
 	// Ensure imports for each driver we wish to test
 
+	"github.com/adamhassel/migrate/direction"
+	"github.com/adamhassel/migrate/driver"
+	"github.com/adamhassel/migrate/file"
 	_ "github.com/db-journey/cassandra-driver"
-	"github.com/db-journey/migrate/direction"
-	"github.com/db-journey/migrate/driver"
-	"github.com/db-journey/migrate/file"
 	_ "github.com/db-journey/mysql-driver"
 	_ "github.com/db-journey/postgresql-driver"
 	_ "github.com/db-journey/sqlite3-driver"
